@@ -6,5 +6,5 @@ import { Component } from 'angular-ts-decorators';
   styles: [require('./app.component.scss')]
 })
 export class AppComponent {
-  title = 'Tour of Heroes';
+  title = 'Fix Man';
 }

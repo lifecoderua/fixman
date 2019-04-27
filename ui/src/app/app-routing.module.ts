@@ -1,19 +1,16 @@
 import { StateProvider } from '@uirouter/angularjs';
+import '@uirouter/angularjs';
 import { Ng1StateDeclaration } from '@uirouter/angularjs/lib/interface';
 import { getTypeName, NgModule } from 'angular-ts-decorators';
-import { DashboardComponent } from './dashboard/dashboard.component';
-import { HeroDetailComponent } from './hero-detail/hero-detail.component';
-import { HeroesComponent } from './heroes/heroes.component';
+import {WelcomeComponent} from './welcome/welcome.component';
 
 export interface UiState extends Ng1StateDeclaration {
   component?: any;
 }
 
 const routes: UiState[] = [
-  { name: 'index', url: '', redirectTo: 'dashboard' },
-  { name: 'dashboard', url: '/dashboard', component: DashboardComponent },
-  { name: 'detail', url: '/detail/{id}', component: HeroDetailComponent },
-  { name: 'heroes', url: '/heroes', component: HeroesComponent }
+  { name: 'index', url: '', redirectTo: 'welcome' },
+  { name: 'welcome', url: '/welcome', component: WelcomeComponent },
 ];
 
 @NgModule({

@@ -1,17 +1,17 @@
 import { ComponentFixture, DebugElement, TestBed } from 'angularjs-testbed';
-import { $PascalCaseName$Component } from './$name$.component';
+import { WelcomeComponent } from './welcome.component';
 
-describe('$PascalCaseName$Component', () => {
-  let component: $PascalCaseName$Component;
-  let fixture: ComponentFixture<$PascalCaseName$Component>;
+describe('WelcomeComponent', () => {
+  let component: WelcomeComponent;
+  let fixture: ComponentFixture<WelcomeComponent>;
   let debugElement: DebugElement;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [ $PascalCaseName$Component ]
+      declarations: [ WelcomeComponent ]
     });
 
-    fixture = TestBed.createComponent($PascalCaseName$Component);
+    fixture = TestBed.createComponent(WelcomeComponent);
     component = fixture.componentInstance;
     debugElement = fixture.debugElement;
     fixture.detectChanges();
