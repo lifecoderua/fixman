@@ -1,77 +1,17 @@
-<div>welcome component works!</div>
+<h1>Welcome</h1>
 
-<hr>
+<h3>Please Sign In</h3>
+<p>Sorry you can't. Don't worry, you may just enter as anyone in the mean time. Much powers, wow!</p>
 
-<md-content class="buttondemoBasicUsage">
-
-  <section layout="row" layout-sm="column" layout-align="center center" layout-wrap="">
-    <md-button>REGULAR</md-button>
-    <md-button md-no-ink="" class="md-primary">Primary (md-noink)</md-button>
-    <md-button ng-disabled="true" class="md-primary">Disabled</md-button>
-    <md-button class="md-warn">WARN</md-button>
-    <div class="label">Flat</div>
-  </section>
-  <md-divider></md-divider>
-
-  <section layout="row" layout-sm="column" layout-align="center center" layout-wrap="">
-    <md-button class="md-raised">Button</md-button>
-    <md-button class="md-raised md-primary">Primary</md-button>
-    <md-button ng-disabled="true" class="md-raised md-primary">Disabled</md-button>
-    <md-button class="md-raised md-warn">Warn</md-button>
-    <div class="label">Raised</div>
-  </section>
-  <md-divider></md-divider>
-
-  <section layout="row" layout-sm="column" layout-align="center center" layout-wrap="">
-    <md-button class="md-fab" aria-label="Eat cake">
-      <md-icon>cake</md-icon>
-    </md-button>
-
-    <md-button class="md-fab md-primary" aria-label="Use Android">
-      <md-icon>android</md-icon>
-    </md-button>
-
-    <md-button class="md-fab" ng-disabled="true" aria-label="Comment">
-      <md-icon>comment</md-icon>
-    </md-button>
-
-    <div class="label">FAB</div>
-  </section>
-  <md-divider></md-divider>
-
-  <section layout="row" layout-sm="column" layout-align="center center" layout-wrap="">
-    <md-button ng-href="{{googleUrl}}" target="_blank">Default Link</md-button>
-    <md-button class="md-primary" ng-href="{{googleUrl}}" target="_blank">
-      Primary Link
-    </md-button>
-    <md-button>Default Button</md-button>
-    <div class="label">Link vs. Button</div>
-  </section>
-  <md-divider></md-divider>
-
-  <section layout="row" layout-sm="column" layout-align="center center" layout-wrap="">
-    <md-button class="md-primary md-hue-1">Primary Hue 1</md-button>
-    <md-button class="md-warn md-raised md-hue-2">Warn Hue 2</md-button>
-    <md-button class="md-accent">Accent</md-button>
-    <md-button class="md-accent md-raised md-hue-1">Accent Hue 1</md-button>
-    <div class="label">Themed</div>
-  </section>
-  <md-divider></md-divider>
-
-  <section layout="row" layout-sm="column" layout-align="center center" layout-wrap="">
-    <md-button class="md-icon-button md-primary" aria-label="Settings">
-      <md-icon>menu</md-icon>
-    </md-button>
-    <md-button class="md-icon-button md-accent" aria-label="Favorite">
-      <md-icon>favorite</md-icon>
-    </md-button>
-    <md-button class="md-icon-button" aria-label="More">
-      <md-icon>more_vert</md-icon>
-    </md-button>
-    <md-button href="http://google.com" title="Launch Google.com in new window" target="_blank" ng-disabled="true" aria-label="Google.com" class="md-icon-button launch">
-      <md-icon>launch</md-icon>
-    </md-button>
-    <div class="label">Icon Button</div>
-  </section>
-</md-content>
-
+<md-button ui-sref="household" class="md-raised md-primary">
+  <md-icon>house</md-icon>
+  Continue as Household
+</md-button>
+<md-button ui-sref="operator" class="md-raised md-primary">
+  <md-icon>call</md-icon>
+  Continue as Operator
+</md-button>
+<md-button ui-sref="contractor" class="md-raised md-primary">
+  <md-icon>worker</md-icon>
+  Continue as Contractor
+</md-button>
