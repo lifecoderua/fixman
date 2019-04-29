@@ -48,6 +48,10 @@
   "dependencies": {
     "@uirouter/angularjs": "1.0.20",
     "angular": "^1.7.2",
+    "angular-animate": "^1.7.8",
+    "angular-aria": "^1.7.8",
+    "angular-material": "^1.1.18",
+    "angular-messages": "^1.7.8",
     "angular-ts-decorators": "^3.7.5",
     "eventemitter3": "3.1.0"
   },
