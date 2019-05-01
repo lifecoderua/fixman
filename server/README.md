@@ -6,14 +6,16 @@ This is a prototype project for tech testing implementing 3-side collaboration b
 
 - Core BE: Laravel | Rails 6rc | Go;
 - Client communication: SSE/Node/Go;
-- Client AngularJS/VueJS;
+- Client AngularJS+TS annotation/VueJS/React;
 - UI: Material;
+- API docs: Swagger
 
 ## Extra techs to test
 
 - Containers: Docker;
 - RBAC: Okta;
-- (?) to consider: Consul, Prometheus, Drone, Nomad/Ansible;
+- (?) to consider: Consul, Prometheus, grafana/loki, Drone, Nomad/Ansible;
+- Redux-Saga for Redux based implementation;
 - PWA;
 
 ## Other
