@@ -1,4 +1,5 @@
 import { Component, OnInit } from 'angular-ts-decorators';
+import {IssueService} from '../../services/issue.service';
 
 @Component({
     selector: 'household',
@@ -6,9 +7,12 @@ import { Component, OnInit } from 'angular-ts-decorators';
     styles: [require('./household.component.scss')],
 })
 export class HouseholdComponent implements OnInit {
+  private issues;
 
   /*@ngInject*/
-  constructor() { }
+  constructor(private issueService: IssueService) { }
 
-  ngOnInit() { }
+  async ngOnInit() {
+    this.issues = await this.issueService.get();
+  }
 }

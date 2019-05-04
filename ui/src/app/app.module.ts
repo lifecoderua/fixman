@@ -10,6 +10,7 @@ import 'angular-material/angular-material.css';
 import {ContractorComponent} from './components/contractor/contractor.component';
 import {HouseholdComponent} from './components/household/household.component';
 import {OperatorComponent} from './components/operator/operator.component';
+import {IssueService} from './services/issue.service';
 
 @NgModule({
   id: 'AppModule',
@@ -27,6 +28,7 @@ import {OperatorComponent} from './components/operator/operator.component';
     ContractorComponent,
   ],
   providers: [
+    IssueService,
   ],
   bootstrap: [ AppComponent ]
 })
