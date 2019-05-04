@@ -1,2 +1,7 @@
-<h3>{{$ctrl.issue.id}}</h3>
-<p>{{$ctrl.issue.description}}</p>
+<span>#{{$ctrl.issue.id}}:</span>
+<span>| {{$ctrl.issue.description}}</span>
+<span>| {{$ctrl.issue.state}}</span>
+<span>|
+  <md-icon class="red">warning</md-icon>
+  <md-icon>error</md-icon>
+  {{$ctrl.issue.severity}}</span>
