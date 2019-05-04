@@ -2,11 +2,11 @@ import { StateProvider } from '@uirouter/angularjs';
 import '@uirouter/angularjs';
 import { Ng1StateDeclaration } from '@uirouter/angularjs/lib/interface';
 import { getTypeName, NgModule } from 'angular-ts-decorators';
-import {ContractorComponent} from './contractor/contractor.component';
-import {HouseholdComponent} from './household/household.component';
-import {OperatorComponent} from './operator/operator.component';
-import {PlaygroundComponent} from './playground/playground.component';
-import {WelcomeComponent} from './welcome/welcome.component';
+import {ContractorComponent} from './components/contractor/contractor.component';
+import {HouseholdComponent} from './components/household/household.component';
+import {OperatorComponent} from './components/operator/operator.component';
+import {PlaygroundComponent} from './components/playground/playground.component';
+import {WelcomeComponent} from './components/welcome/welcome.component';
 
 export interface UiState extends Ng1StateDeclaration {
   component?: any;

@@ -3,13 +3,13 @@ import 'angular-messages';
 import { NgModule } from 'angular-ts-decorators';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { PlaygroundComponent } from './playground/playground.component';
-import { WelcomeComponent } from './welcome/welcome.component';
+import { PlaygroundComponent } from './components/playground/playground.component';
+import { WelcomeComponent } from './components/welcome/welcome.component';
 
 import 'angular-material/angular-material.css';
-import {ContractorComponent} from './contractor/contractor.component';
-import {HouseholdComponent} from './household/household.component';
-import {OperatorComponent} from './operator/operator.component';
+import {ContractorComponent} from './components/contractor/contractor.component';
+import {HouseholdComponent} from './components/household/household.component';
+import {OperatorComponent} from './components/operator/operator.component';
 
 @NgModule({
   id: 'AppModule',
