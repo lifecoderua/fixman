@@ -2,6 +2,9 @@ import { StateProvider } from '@uirouter/angularjs';
 import '@uirouter/angularjs';
 import { Ng1StateDeclaration } from '@uirouter/angularjs/lib/interface';
 import { getTypeName, NgModule } from 'angular-ts-decorators';
+import {ContractorComponent} from './contractor/contractor.component';
+import {HouseholdComponent} from './household/household.component';
+import {OperatorComponent} from './operator/operator.component';
 import {PlaygroundComponent} from './playground/playground.component';
 import {WelcomeComponent} from './welcome/welcome.component';
 
@@ -13,6 +16,9 @@ const routes: UiState[] = [
   { name: 'index', url: '', redirectTo: 'welcome' },
   { name: 'welcome', url: '/welcome', component: WelcomeComponent },
   { name: 'playground', url: '/playground', component: PlaygroundComponent },
+  { name: 'household', url: '/household', component: HouseholdComponent },
+  { name: 'operator', url: '/operator', component: OperatorComponent },
+  { name: 'contractor', url: '/contractor', component: ContractorComponent },
 ];
 
 @NgModule({
