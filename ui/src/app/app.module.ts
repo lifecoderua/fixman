@@ -9,6 +9,8 @@ import { WelcomeComponent } from './components/welcome/welcome.component';
 import 'angular-material/angular-material.css';
 import {ContractorComponent} from './components/contractor/contractor.component';
 import {HouseholdComponent} from './components/household/household.component';
+import {IssueComponent} from './components/issue/issue.component';
+import {IssueListComponent} from './components/issueList/issueList.component';
 import {OperatorComponent} from './components/operator/operator.component';
 import {IssueService} from './services/issue.service';
 
@@ -26,6 +28,8 @@ import {IssueService} from './services/issue.service';
     HouseholdComponent,
     OperatorComponent,
     ContractorComponent,
+    IssueComponent,
+    IssueListComponent,
   ],
   providers: [
     IssueService,

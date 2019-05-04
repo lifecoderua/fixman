@@ -1,12 +1,3 @@
-<h2>Welcome to Household Easy Dashboard</h2>
+<h2>Welcome to Household EasyDashboard™</h2>
 
-
-<md-list>
-  <md-list-item class="md-2-line" ng-repeat="issue in $ctrl.issues">
-    <md-checkbox ng-model="item.done"></md-checkbox>
-    <div class="md-list-item-text">
-      <h3>{{issue.id}}</h3>
-      <p>{{issue.description}}</p>
-    </div>
-  </md-list-item>
-</md-list>
+<issue-list issues="$ctrl.issues"></issue-list>

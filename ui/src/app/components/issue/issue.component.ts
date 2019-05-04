@@ -1,4 +1,4 @@
-import { Component, OnInit } from 'angular-ts-decorators';
+import {Component, Input, OnInit} from 'angular-ts-decorators';
 
 @Component({
     selector: 'issue',
@@ -6,6 +6,7 @@ import { Component, OnInit } from 'angular-ts-decorators';
     styles: [require('./issue.component.scss')],
 })
 export class IssueComponent implements OnInit {
+  @Input() issue;
 
   /*@ngInject*/
   constructor() { }
