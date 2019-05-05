@@ -1,6 +1,6 @@
 <md-list>
-  <md-list-item class="md-2-line" ng-repeat="issue in $ctrl.issues">
-    <div class="md-list-item-text severity-{{issue.severity}}">
+  <md-list-item class="md-2-line severity-{{issue.severity}}" ng-repeat="issue in $ctrl.issues">
+    <div class="md-list-item-text">
       <issue issue="issue"></issue>
     </div>
   </md-list-item>

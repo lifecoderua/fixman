@@ -1,1 +1,11 @@
 /* .scss style file */
+//@import '~angular-material/';
+@import '../../colors.scss';
+
+.severity-high {
+  background-color: $warning;
+}
+
+.severity-critical {
+  background-color: $critical;
+}

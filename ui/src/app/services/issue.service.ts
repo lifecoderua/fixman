@@ -14,7 +14,7 @@ const issues = [
     operatorAssigned: { uid: 16, name: 'Operator Fox' },
   },
   { id: 5, description: 'stub-description-5', state: 'resolved', severity: 'high' },
-  { id: 6, description: 'stub-description-6', state: 'rejected', severity: 'medium' },
+  { id: 6, description: 'stub-description-6', state: 'rejected', severity: 'critical' },
   { id: 7, description: 'stub-description-7', state: 'confirmed', severity: 'medium' },
 ];
 
